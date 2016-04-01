@@ -1,7 +1,7 @@
 source 'https://rubygems.org'
 
-gem 'rails', path: "/home/barnabas/projects/rails"
-
+gem 'rails', github: "rails/rails"
+gem 'rspec', '~> 3.0'
 # Use sqlite3 as the database for Active Record
 gem 'sqlite3'
 # Use Puma as the app server
