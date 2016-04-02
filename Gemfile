@@ -8,6 +8,10 @@ gem 'sqlite3'
 gem 'puma'
 # Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
 # gem 'jbuilder', '~> 2.0'
+
+# ActiveModelSerializers brings convention over configuration to JSON generation
+gem "active_model_serializers", github: "rails-api/active_model_serializers"
+
 # Use Redis adapter to run Action Cable in production
 # gem 'redis', '~> 3.0'
 # Use ActiveModel has_secure_password
